@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>South Park: Operation Blackout</title>
+    <title>South Park: Wide Anal Network</title>
     <style>
         /* --- CSS Variables based on southpark.es style --- */
         :root {
@@ -315,6 +315,33 @@
             from { opacity: 0; transform: scale(0.9); }
             to { opacity: 1; transform: scale(1); }
         }
+
+        /* --- TRAILER SECTION --- */
+        .trailer-section {
+            padding: 80px 5%;
+            background-color: var(--sp-dark-blue);
+            text-align: center;
+            margin-top: -50px; /* Overlap with previous section */
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 900px;
+            margin: 40px auto 0;
+            border: 5px solid var(--sp-cyan);
+            box-shadow: 0 0 25px rgba(0, 255, 234, 0.6);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -343,7 +370,7 @@
         
         <div class="hero-content">
             <h2 class="hero-subtitle">THE WEEKEND IS IN DANGER</h2>
-            <h1 class="hero-title">OPERATION: BLACKOUT</h1>
+            <h1 class="hero-title">WIDE ANAL NETWORK</h1>
             <p class="hero-description">When La Liga blocks the internet, chaos reigns. Join The Coon to infiltrate corporate headquarters and reclaim bandwidth.</p>
             <a href="#" class="btn">WATCH TRAILER</a>
         </div>
@@ -387,6 +414,13 @@
         </div>
         <div style="text-align: center; margin-top: 60px;">
              <a href="#" class="btn" style="font-size: 1.5rem; padding: 20px 60px;">PRE-ORDER COON EDITION</a>
+        </div>
+    </section>
+
+    <section class="trailer-section">
+        <h2 class="features-header">WATCH THE TRAILER</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
